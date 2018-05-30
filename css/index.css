@@ -149,10 +149,10 @@ body{
   text-justify: inter-word;
 }
 .col4 hr{
-  margin: 2vh 3vh 3vh 3vh;
+  margin: 2vh 3vh 0vh 3vh;
 }
 .col4 button{
-  margin: 0vh 3vh;
+  margin: 3vh 3vh;
   background-color: #FF8D0C;
   color: #FFF;
   border-style: none;
@@ -225,7 +225,7 @@ button:hover{
     transition: 0.2s linear;
   }
   .col-con button{
-    margin: 0vh 3vh;
+    margin: 3vh 3vh;
     background-color: #FF8D0C;
     color: #FFF;
     border-style: none;
@@ -252,8 +252,49 @@ button:hover{
   transform: scale(1.2);
   transition: 0.2s linear;
 }
-/* @media only screen and (max-width: 1460px) {
-   header{
-     transform: scale(0.8);
-   }
- } */
+@media only screen and (max-width: 1540px) {
+   .header{
+     height: 80px; }
+     .header .header-panel{
+       margin-top: 2.7vh;}
+   .header-panel a{
+     font-size: 22px;
+     padding: 30px;}
+   .header-panel a:hover{
+     padding: 30spx;}
+    .header-panel input{
+     margin: 0vh 0vh 0vh 22vh;}
+     .layout .layout-title{
+       margin-top: 80px;}
+    .col2 h1{
+     font-size: 60px;}
+     .content{
+       height: 80vh;}
+    .col4{
+      height: 60vh;}
+    .col4 h1{
+      margin-left: 3vh;
+      font-size: 22px;}
+    .col4 p{
+      font-size: 14px;}
+    .col4 button{
+      width: 14vh;
+      height: 4vh;}
+      .contact{
+      height: 90vh;}
+      .col-con input{
+      text-indent: 14px;
+      font-size: 16px;}
+      .col-con textarea{
+      text-indent: 14px;
+      font-size: 16px;}
+      .col-con button{
+        width: 14vh;
+        height: 4vh;
+        margin: 3vh 3vh;}
+      .spornsor  h1{
+        font-size: 26px;}
+      .spornsor img{
+        width: 3%;}
+
+ }
